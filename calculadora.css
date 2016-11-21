@@ -1,0 +1,60 @@
+
+#calculadora{
+	width: 600px;
+	height: 600px;
+	border: 2px black solid;
+	background-color: salmon;
+}
+
+#numeros{
+	width: 60%;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	margin-top:10px;
+	float: left;
+	font-size: 50px;
+	margin-left: 20px;
+}
+
+.num{
+width: 32%;
+height: 24%;
+border:2px black solid;
+text-align: center;
+background-color: #900ED0;
+}
+
+#operandos{
+	width: 35%;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	margin-top:15px;
+	float: right;
+	align-items: center;
+	font-size: 50px;
+}
+ 
+.sim{
+	width: 60%;
+	height: 15%;
+	border: 2px pink solid;
+	margin-left: 40px;
+	text-align: center;
+	background-color: #3498DB;
+}
+
+#pantalla{
+	width: 80%;
+	height: 15%;
+	border: 2px black solid;
+	background-color: white;
+	display: flex;
+	justify-content:flex-end;
+	font-size: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
